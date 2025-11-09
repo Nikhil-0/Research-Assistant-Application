@@ -50,6 +50,8 @@ streamlit run app/ResearchApp.py
 
 3. Open your browser and navigate to the URL shown by Streamlit (usually http://localhost:8501)
 
+Note: The Streamlit version is a more crude version that we designed for those who don't want the agents to feed everything and instead want to use the agents to nudge independant thinking by providing the process of the agents' workflow and some of the searches and JSON that the agents use, along with providing slightly less research. For a full-fledged research agent, simply use the ADK web command and access the agents from the provided port (Usually http://localhost:8000)
+
 ## Project Structure
 
 - `app/ResearchApp.py`: Main Streamlit application
